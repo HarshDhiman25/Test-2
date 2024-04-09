@@ -17,14 +17,29 @@ public class PropertyController : Controller
         _context = context;
     }
 
-    
-    public async Task<IActionResult> Index()
+
+    public async Task<IActionResult> Index(string searchOwnerName)
     {
-        var properties = await _context.Properties.ToListAsync();
-        return View(properties);
+        
+        ViewBag.CurrentFilterOwnerName = searchOwnerName;
+
+        
+        var properties = _context.Properties.AsQueryable();
+
+     
+        if (!string.IsNullOrEmpty(searchOwnerName))
+        {
+            properties = properties.Where(p => p.OwnerName.Contains(searchOwnerName));
+        }
+
+       
+        var filteredProperties = await properties.ToListAsync();
+
+        return View(filteredProperties);
     }
 
-   
+
+
     public async Task<IActionResult> Details(int? id)
     {
         if (id == null)
@@ -43,46 +58,27 @@ public class PropertyController : Controller
         return View(property);
     }
 
-    // GET: Property/Create
-    public IActionResult Create()
-    {
-        return View();
-    }
-
-    // POST: Property/Create
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Create([Bind("PropertyId,OwnerName,PropertyType,Address,RegistrationDate,Price,ImageUrl,ApplicationUserId")] Property property)
-    {
-        if (ModelState.IsValid)
-        {
-            _context.Add(property);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-        return View(property);
-    }
-
-    // GET: Property/Edit/5
-    public async Task<IActionResult> Edit(int? id)
+   
+    public IActionResult CreateOrEdit(int? id)
     {
         if (id == null)
         {
-            return NotFound();
+            return View(new Property());
         }
-
-        var property = await _context.Properties.FindAsync(id);
-        if (property == null)
+        else
         {
-            return NotFound();
+            var property = _context.Properties.Find(id);
+            if (property == null)
+            {
+                return NotFound();
+            }
+            return View(property);
         }
-        return View(property);
     }
 
-    // POST: Property/Edit/5
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Edit(int id, [Bind("PropertyId,OwnerName,PropertyType,Address,RegistrationDate,Price,ImageUrl,ApplicationUserId")] Property property)
+    public async Task<IActionResult> CreateOrEdit(int id, [Bind("PropertyId,OwnerName,PropertyType,Address,RegistrationDate,Price,ApplicationUserId")] Property property, IFormFile imageFile)
     {
         if (id != property.PropertyId)
         {
@@ -91,28 +87,39 @@ public class PropertyController : Controller
 
         if (ModelState.IsValid)
         {
-            try
+            if (imageFile != null && imageFile.Length > 0)
+            {
+               
+                string fileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
+                string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/", fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await imageFile.CopyToAsync(stream);
+                }
+
+                
+                property.ImageUrl = "/images/" + fileName;
+            }
+
+            if (id == 0) 
+            {
+                _context.Add(property);
+            }
+            else 
             {
                 _context.Update(property);
-                await _context.SaveChangesAsync();
             }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!PropertyExists(property.PropertyId))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+
+            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
         return View(property);
     }
 
-    // GET: Property/Delete/5
+
+
+
     public async Task<IActionResult> Delete(int? id)
     {
         if (id == null)
@@ -130,9 +137,11 @@ public class PropertyController : Controller
         return View(property);
     }
 
-    // POST: Property/Delete/5
+
+
     [HttpPost, ActionName("Delete")]
     [ValidateAntiForgeryToken]
+    [HttpDelete]
     public async Task<IActionResult> DeleteConfirmed(int id)
     {
         var property = await _context.Properties.FindAsync(id);
@@ -140,6 +149,7 @@ public class PropertyController : Controller
         await _context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
     }
+
 
     private bool PropertyExists(int id)
     {
