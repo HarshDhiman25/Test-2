@@ -1,307 +1,311 @@
 {
   "Files": [
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Property_Mangement.bundle.scp.css",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Property_Mangement.bundle.scp.css",
       "PackagePath": "staticwebassets\\Property_Mangement.bundle.scp.css"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\css\\site.css",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\favicon.ico",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\images\\15d0fdbc-17f9-4407-92d7-a1a38b512698.jpg",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\images\\15d0fdbc-17f9-4407-92d7-a1a38b512698.jpg",
       "PackagePath": "staticwebassets\\images\\15d0fdbc-17f9-4407-92d7-a1a38b512698.jpg"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\images\\18af714e-99b7-49e9-8e73-45b7fed1f780.jpeg",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\images\\18af714e-99b7-49e9-8e73-45b7fed1f780.jpeg",
       "PackagePath": "staticwebassets\\images\\18af714e-99b7-49e9-8e73-45b7fed1f780.jpeg"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\images\\1ab66dba-e17c-47c5-abb3-dc4e551fefa9.jpg",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\images\\1ab66dba-e17c-47c5-abb3-dc4e551fefa9.jpg",
       "PackagePath": "staticwebassets\\images\\1ab66dba-e17c-47c5-abb3-dc4e551fefa9.jpg"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\images\\36f02ed5-0dec-4909-9f14-62e37391bf1a.jpg",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\images\\36f02ed5-0dec-4909-9f14-62e37391bf1a.jpg",
       "PackagePath": "staticwebassets\\images\\36f02ed5-0dec-4909-9f14-62e37391bf1a.jpg"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\images\\3d6a0197-0c87-41f7-a725-08555a74f96f.jpg",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\images\\3d6a0197-0c87-41f7-a725-08555a74f96f.jpg",
       "PackagePath": "staticwebassets\\images\\3d6a0197-0c87-41f7-a725-08555a74f96f.jpg"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\images\\6121606c-ca36-4219-920d-067c2a48cd7d.jpeg",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\images\\6121606c-ca36-4219-920d-067c2a48cd7d.jpeg",
       "PackagePath": "staticwebassets\\images\\6121606c-ca36-4219-920d-067c2a48cd7d.jpeg"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\images\\6646220c-fd8a-48a7-8f8f-d203b1d19f39.jpg",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\images\\6646220c-fd8a-48a7-8f8f-d203b1d19f39.jpg",
       "PackagePath": "staticwebassets\\images\\6646220c-fd8a-48a7-8f8f-d203b1d19f39.jpg"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\images\\6e5642a5-6f31-4df0-b7ac-da6e5feaf96c.jpg",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\images\\6e5642a5-6f31-4df0-b7ac-da6e5feaf96c.jpg",
       "PackagePath": "staticwebassets\\images\\6e5642a5-6f31-4df0-b7ac-da6e5feaf96c.jpg"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\images\\9303bc4d-a8c6-4d7b-bf59-98e4c27f6176.jpg",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\images\\9303bc4d-a8c6-4d7b-bf59-98e4c27f6176.jpg",
       "PackagePath": "staticwebassets\\images\\9303bc4d-a8c6-4d7b-bf59-98e4c27f6176.jpg"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\images\\968f880f-619a-46b3-b200-fc6368d4d862.jpg",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\images\\968f880f-619a-46b3-b200-fc6368d4d862.jpg",
       "PackagePath": "staticwebassets\\images\\968f880f-619a-46b3-b200-fc6368d4d862.jpg"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\images\\b74ff2ba-c1f4-4fb3-a98c-529e109f6069.jpeg",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\images\\b74ff2ba-c1f4-4fb3-a98c-529e109f6069.jpeg",
       "PackagePath": "staticwebassets\\images\\b74ff2ba-c1f4-4fb3-a98c-529e109f6069.jpeg"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\images\\bc457ce6-e752-43f6-9db1-31308e2611bb.jpg",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\images\\bc457ce6-e752-43f6-9db1-31308e2611bb.jpg",
       "PackagePath": "staticwebassets\\images\\bc457ce6-e752-43f6-9db1-31308e2611bb.jpg"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\images\\d0d87bdb-4f9a-4e81-9356-c67dd61a9cf3.jpeg",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\images\\d0d87bdb-4f9a-4e81-9356-c67dd61a9cf3.jpeg",
       "PackagePath": "staticwebassets\\images\\d0d87bdb-4f9a-4e81-9356-c67dd61a9cf3.jpeg"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\images\\d668c2da-2223-476e-a386-1f275fbcdb51.jpg",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\images\\d668c2da-2223-476e-a386-1f275fbcdb51.jpg",
       "PackagePath": "staticwebassets\\images\\d668c2da-2223-476e-a386-1f275fbcdb51.jpg"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\images\\d922abeb-8a84-4d52-a862-1af0abec447b.jpg",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\images\\d922abeb-8a84-4d52-a862-1af0abec447b.jpg",
       "PackagePath": "staticwebassets\\images\\d922abeb-8a84-4d52-a862-1af0abec447b.jpg"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\js\\site.js",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\images\\ee74fca4-7abf-4b8c-8f03-3e10b21d1a46.jpeg",
+      "PackagePath": "staticwebassets\\images\\ee74fca4-7abf-4b8c-8f03-3e10b21d1a46.jpeg"
+    },
+    {
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\New folder (2)\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "E:\\Project\\Test-2\\Property_Mangement\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

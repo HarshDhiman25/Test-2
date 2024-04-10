@@ -8670,23 +8670,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Madhu\\.nuget\\packages\\": {},
+    "C:\\Users\\Sunny\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\New folder (2)\\Test-2\\Property_Mangement\\Property_Mangement.csproj",
+      "projectUniqueName": "E:\\Project\\Test-2\\Property_Mangement\\Property_Mangement.csproj",
       "projectName": "Property_Mangement",
-      "projectPath": "E:\\New folder (2)\\Test-2\\Property_Mangement\\Property_Mangement.csproj",
-      "packagesPath": "C:\\Users\\Madhu\\.nuget\\packages\\",
-      "outputPath": "E:\\New folder (2)\\Test-2\\Property_Mangement\\obj\\",
+      "projectPath": "E:\\Project\\Test-2\\Property_Mangement\\Property_Mangement.csproj",
+      "packagesPath": "C:\\Users\\Sunny\\.nuget\\packages\\",
+      "outputPath": "E:\\Project\\Test-2\\Property_Mangement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Madhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sunny\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8773,7 +8773,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

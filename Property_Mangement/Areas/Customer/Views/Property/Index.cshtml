@@ -117,38 +117,5 @@
             propertyPrices.push(property.Price);
         });
 
-        // First chart
-        var propertyChartCanvas = document.getElementById('propertyChart').getContext('2d');
-        var propertyChart = new Chart(propertyChartCanvas, {
-            type: 'line', // Change type to 'line' if you want lines instead of bars
-            data: {
-                labels: propertyLabels,
-                datasets: [{
-                    label: 'Price',
-                    data: propertyPrices,
-                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                    borderColor: 'rgba(255, 99, 132, 1)',
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        title: {
-                            display: true,
-                            text: 'Price'
-                        }
-                    },
-                    x: {
-                        title: {
-                            display: true,
-                            text: 'Property ID'
-                        }
-                    }
-                },
-                responsive: true // Enable responsive design
-            }
-        });
-    });
+
 </script>
