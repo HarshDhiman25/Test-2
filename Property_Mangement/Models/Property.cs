@@ -21,9 +21,9 @@
         public DateTime RegistrationDate { get; set; }
 
         [Required(ErrorMessage = "Price is required")]
-        [Range(0, double.MaxValue, ErrorMessage = "Price must be greater than 0")]
+        [Range(0, double.MaxValue, ErrorMessage = "Price must be greater than 0")]        
         public decimal Price { get; set; }
-
+        [Required(ErrorMessage = "Image is required")]
         public string? ImageUrl { get; set; }
 
         // Foreign 

@@ -3,45 +3,69 @@
 @{
     ViewData["Title"] = Model.PropertyId == 0 ? "Create Property" : "Edit Property";
 }
+<style>
 
-<h1>@ViewData["Title"]</h1>
+    body {
+        background-image: url('https://img.freepik.com/free-photo/house-investments-elements-composition_23-2148793806.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1712361600&semt=ais');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+</style>
+
+
+<h1 class="text-white">@ViewData["Title"]</h1>
 
 <form method="post" enctype="multipart/form-data">
-    <div class="form-group">
-        <label asp-for="OwnerName"></label>
+    <input asp-for="PropertyId" class="form-control text-white" hidden />
+
+    <div class="form-group col-lg-5">
+        <label asp-for="OwnerName" class="text-white"></label>
         <input asp-for="OwnerName" class="form-control" />
         <span asp-validation-for="OwnerName" class="text-danger"></span>
     </div>
-    <div class="form-group">
-        <label asp-for="PropertyType"></label>
+
+    <div class="form-group col-lg-5">
+        <label asp-for="PropertyType " class="text-white"></label>
         <input asp-for="PropertyType" class="form-control" />
         <span asp-validation-for="PropertyType" class="text-danger"></span>
     </div>
-    <div class="form-group">
-        <label asp-for="Address"></label>
+
+    <div class="form-group col-lg-5"  >
+        <label asp-for="Address" class="text-white"></label>
         <input asp-for="Address" class="form-control" />
         <span asp-validation-for="Address" class="text-danger"></span>
     </div>
-    <div class="form-group">
-        <label asp-for="RegistrationDate"></label>
+
+    <div class="form-group col-lg-5">
+        <label asp-for="RegistrationDate" class="text-white"></label>
         <input asp-for="RegistrationDate" class="form-control"
-               min="@DateTime.Now.ToString("yyyy-MM-dd")"
-               max="@DateTime.Now.AddYears(1).ToString("yyyy-MM-dd")" />
+               min="@DateTime.Now.ToString("Date")"
+               max="@DateTime.Now.AddYears(1).ToString("date")" />
         <span asp-validation-for="RegistrationDate" class="text-danger"></span>
     </div>
 
-    <div class="form-group">
-        <label asp-for="Price"></label>
+    <div class="form-group col-lg-5">
+        <label asp-for="Price" class="text-white"></label>
         <input asp-for="Price" class="form-control" />
         <span asp-validation-for="Price" class="text-danger"></span>
     </div>
+
+    @if (!string.IsNullOrEmpty(Model.ImageUrl))
+    {
+        <div class="form-group">
+            <label>Current Image: class="text-white"</label>
+            <img src="@Model.ImageUrl" alt="Property Image" style="max-width: 100px;" />
+        </div>
+    }
     <br />
 
-    <div class="form-group">
-        <label asp-for="ImageUrl"></label>
+    <div class="form-group col-lg-5">
+        <label asp-for="ImageUrl" class="text-white"></label>
         <input type="file" name="imageFile" class="form-control-file" />
         <span asp-validation-for="ImageUrl" class="text-danger"></span>
     </div>
+
     <br />
     <button type="submit" class="btn btn-primary">Save</button>
 </form>

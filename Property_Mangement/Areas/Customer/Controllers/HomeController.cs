@@ -1,4 +1,9 @@
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Property_Mangement.Data;
+
 using Property_Mangement.Models;
 using System.Diagnostics;
 
@@ -8,15 +13,28 @@ namespace Property_Mangement.Areas.Customer.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly ApplicationDbContext _context;
+        private readonly SignInManager<IdentityUser> _signInManager;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, ApplicationDbContext context, SignInManager<IdentityUser> signInManager)
         {
             _logger = logger;
+            _context = context;
+            _signInManager = signInManager;
         }
 
-        public IActionResult Index()
+
+        public async Task<IActionResult> Index(string searchOwnerName)
         {
-            return View();
+            if (_signInManager.IsSignedIn(User))
+            {
+                var properties = await _context.Properties.ToListAsync();
+                return View(properties);
+            }
+            else
+            {
+                return RedirectToAction("Login", "Account", new { area = "Identity" });
+            }
         }
 
         public IActionResult Privacy()
@@ -31,3 +49,4 @@ namespace Property_Mangement.Areas.Customer.Controllers
         }
     }
 }
+

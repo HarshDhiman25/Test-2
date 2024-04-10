@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Property_Mangement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a36e92c501e5af107831155a18a518daba753239")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8728c02fced97ddfcd78b41e80d6f48be5c248c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Property_Mangement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Property_Mangement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

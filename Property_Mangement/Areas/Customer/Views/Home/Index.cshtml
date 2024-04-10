@@ -1,8 +1,53 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model IEnumerable<Property_Mangement.Models.Property>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@{
+
+    ViewData["Title"] = "Home Page";
+
+}
+<style>
+
+    body {
+        background-image: url('https://img.freepik.com/free-photo/house-investments-elements-composition_23-2148793806.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1712361600&semt=ais');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+</style>
+
+<h1 class="text-white    text-center">Properties</h1>
+
+<div class="row">
+    @foreach (var property in Model)
+    {
+        <div class="col-lg-3 col-md-3">
+            <div class="row p-2">
+                <div class="col-12">
+                    <div class="card">
+
+                        <img src="@property.ImageUrl" class="card-img-top" alt="Property Image">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">@property.OwnerName</h5>
+
+                            <p class="card-text">Type: @property.PropertyType</p>
+
+                            <p class="card-text">Address: @property.Address</p>
+
+                            <p class="card-text">Registration Date: @property.RegistrationDate</p>
+
+                            <p class="card-text">Price: @property.Price</p>
+
+                            <a href="@Url.Action("Details", "Property", new { id = property.PropertyId })" class="btn btn-primary">Details</a>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    }
 </div>
